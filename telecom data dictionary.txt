@@ -1,0 +1,41 @@
+State: The state in which the customer resides. (Categorical)
+
+Account Length: The number of days the customer has been with the company. (Numerical)
+
+Area Code: The area code of the customer's phone number. (Categorical)
+
+Phone Number: The customer's phone number. (Categorical)
+
+International Plan: Whether the customer has an international calling plan or not. (Categorical - "yes" or "no")
+
+Voice Mail Plan: Whether the customer has subscribed to the voicemail plan or not. (Categorical - "yes" or "no")
+
+Number Vmail Messages: The number of voicemail messages the customer has received. (Numerical)
+
+Total Day Minutes: Total number of minutes the customer used the phone during the day. (Numerical)
+
+Total Day Calls: Total number of calls the customer made during the day. (Numerical)
+
+Total Day Charge: Total charges for daytime phone usage. (Numerical)
+
+Total Eve Minutes: Total number of minutes the customer used the phone during the evening. (Numerical)
+
+Total Eve Calls: Total number of calls the customer made during the evening. (Numerical)
+
+Total Eve Charge: Total charges for evening phone usage. (Numerical)
+
+Total Night Minutes: Total number of minutes the customer used the phone during the night. (Numerical)
+
+Total Night Calls: Total number of calls the customer made during the night. (Numerical)
+
+Total Night Charge: Total charges for nighttime phone usage. (Numerical)
+
+Total Intl Minutes: Total number of minutes the customer used for international calls. (Numerical)
+
+Total Intl Calls: Total number of international calls the customer made. (Numerical)
+
+Total Intl Charge: Total charges for international phone usage. (Numerical)
+
+Customer Service Calls: The number of customer service calls made by the customer. (Numerical)
+
+Churn: Whether the customer churned (left) the company or not. (Binary - "TRUE" for churned, "FALSE" for not churned)
