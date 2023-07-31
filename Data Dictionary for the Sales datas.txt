@@ -1,0 +1,27 @@
+Data Dictionary for the Sales dataset:
+
+ORDERNUMBER: The unique identifier for each order.
+QUANTITYORDERED: The quantity of products ordered in each order.
+PRICEEACH: The price of each product in the order.
+ORDERLINENUMBER: The line number of the ordered product within the order.
+SALES: The total sales amount for the order (QUANTITYORDERED * PRICEEACH).
+ORDERDATE: The date when the order was placed.
+STATUS: The status of the order (e.g., "Shipped").
+QTR_ID: The quarter ID of the order date.
+MONTH_ID: The month ID of the order date.
+YEAR_ID: The year ID of the order date.
+PRODUCTLINE: The product line/category of the ordered product (e.g., "Motorcycles").
+MSRP: The Manufacturer's Suggested Retail Price for the product.
+PRODUCTCODE: The unique identifier for the product.
+CUSTOMERNAME: The name of the customer who placed the order.
+PHONE: The contact phone number of the customer.
+ADDRESSLINE1: The first line of the customer's address.
+ADDRESSLINE2: The second line of the customer's address (if applicable).
+CITY: The city where the customer is located.
+STATE: The state or province where the customer is located.
+POSTALCODE: The postal code of the customer's location.
+COUNTRY: The country where the customer is located.
+TERRITORY: The territory associated with the order (e.g., "NA" for North America, "EMEA" for Europe, the Middle East, and Africa).
+CONTACTLASTNAME: The last name of the contact person for the customer.
+CONTACTFIRSTNAME: The first name of the contact person for the customer.
+DEALSIZE: The deal size category associated with the order (e.g., "Small," "Medium," etc.).
