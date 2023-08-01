@@ -1,0 +1,13 @@
+Name: Name of the car with brand and model name
+Location: The location where car is being sold or availabel for the purchase
+Year: manufacturing year of car
+Kilometers_driven: total kilometers driven in car in KM
+Fuel_type: type of fuel used in the car
+Transimission: type of transmission usd by car(automatic/manual)
+Owner: type of ownership
+Mileage: Standard mileage offered by car company in kmpl or km/kg
+Engine: displacement volume of engine in cc
+Power: maximum power of engine in bhp
+Seats: no. of seats in car
+New_price: price of new car of same model in INR Lakhs
+Price: price of used car in INR lakhs
