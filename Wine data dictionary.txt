@@ -1,0 +1,15 @@
+Alcohol: Alcohol content in the wine sample (numeric).
+Malic_Acid: Malic acid content in the wine sample (numeric).
+Ash: Ash content in the wine sample (numeric).
+Ash_Alcanity: Alkalinity of ash in the wine sample (numeric).
+Magnesium: Magnesium content in the wine sample (numeric).
+Total_Phenols: Total phenolic content in the wine sample (numeric).
+Flavanoids: Flavanoid content in the wine sample (numeric).
+Nonflavanoid_Phenols: Non-flavanoid phenolic content in the wine sample (numeric).
+Proanthocyanins: Proanthocyanin content in the wine sample (numeric).
+Color_Intensity: Color intensity of the wine sample (numeric).
+Hue: Hue of the wine sample (numeric).
+OD280: OD280/OD315 of diluted wines (numeric).
+Proline: Proline content in the wine sample (numeric).
+Customer_Segment: Customer segment identifier for the wine sample (categorical).
+Each row in the dataset represents a wine sample, and the columns contain different features and characteristics of those samples. The 'Customer_Segment' column represents the target variable or the class label that categorizes each wine sample into one of the three customer segments.
