@@ -1,0 +1,49 @@
+gender
+Description: Gender of the student.
+Data Type: Categorical (text)
+Valid Values: female, male
+Example: female
+
+race/ethnicity
+Description: Racial or ethnic background of the student.
+Data Type: Categorical (text)
+Valid Values: group A, group B, group C, etc.
+Example: group B
+
+parental level of education
+Description: The highest level of education attained by the student's parents.
+Data Type: Categorical (text)
+Valid Values: some college, associate's degree, bachelor's degree, master's degree, etc.
+Example: bachelor's degree
+
+lunch
+Description: Type of lunch provided to the student.
+Data Type: Categorical (text)
+Valid Values: standard, free/reduced
+Example: standard
+
+test preparation course
+Description: Indicates if the student completed a test preparation course or not.
+Data Type: Categorical (text)
+Valid Values: none, completed
+Example: none
+
+math score
+Description: The score obtained by the student in math.
+Data Type: Integer (numeric)
+Valid Range: 0-100
+Example: 72
+Constraints: 0 ≤ value ≤ 100
+
+reading score
+Description: The score obtained by the student in reading.
+Data Type: Integer (numeric)
+Valid Range: 0-100
+Example: 72
+
+writing score
+Description: The score obtained by the student in writing.
+Data Type: Integer (numeric)
+Valid Range: 0-100
+Example: 74
+Constraints: 0 ≤ value ≤ 100
