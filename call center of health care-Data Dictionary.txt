@@ -1,0 +1,41 @@
+Data Dictionary
+
+Month
+
+Description: The date and time at the beginning of the month for which the metrics have been reported.
+Data Type: DateTime
+Format: MM/DD/YYYY HH:MM:SS AM/PM
+Example: 01/01/2018 12:00:00 AM
+Constraints: None
+Inbound Calls
+
+Description: Total number of calls received during the specified month.
+Data Type: Integer
+Example: 5035
+Constraints: ≥ 0
+Average Speed of Answer in Secs
+
+Description: The average time (in seconds) taken to answer an inbound call during the specified month.
+Data Type: Integer
+Units: Seconds
+Example: 16
+Constraints: ≥ 0
+Abandoned Calls
+
+Description: Total number of calls that were abandoned by the caller before they were answered during the specified month.
+Data Type: Integer
+Example: 49
+Constraints: ≥ 0
+Call Abandonment Rate
+
+Description: The percentage of inbound calls that were abandoned by the caller before they were answered during the specified month.
+Data Type: Percentage
+Format: X.XX%
+Example: 0.96%
+Constraints: 0% ≤ Value ≤ 100%
+In-person visits
+
+Description: Total number of in-person visits recorded during the specified month.
+Data Type: Integer
+Example: 1259
+Constraints: ≥ 0
