@@ -1,0 +1,13 @@
+Data Dictionary
+• Symbol: Ticker symbol of the stock.
+• Date: Date of the stock data.
+• Close: Closing price of the stock on that day.
+• High: Highest price of the stock during the trading session.
+• Low: Lowest price of the stock during the trading session.
+• Open: Opening price of the stock.
+• Volume: Number of shares traded during the session.
+• AdjClose: Adjusted closing price accounting for any corporate actions.
+• AdjHigh, AdjLow, AdjOpen: Adjusted high, low, and opening prices.
+• AdjVolume: Adjusted trading volume.
+• DivCash: Dividend cash paid.
+• SplitFactor: Stock split factor.
