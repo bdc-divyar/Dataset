@@ -1,0 +1,14 @@
+• employee_id: Unique identifier for each employee.
+• department: Functional department where the employee works.
+• region: Geographical region of the employee's work location.
+• education: Educational qualification of the employee.
+• gender: Gender of the employee.
+• recruitment_channel: Channel through which the employee was recruited (e.g., agency, referral, direct).
+• no_of_trainings: Number of trainings attended by the employee.
+• age: Age of the employee.
+• previous_year_rating: Performance rating received by the employee in the previous year.
+• length_of_service: Number of years the employee has served in the organization.
+• KPIs_met >80%: Whether the employee met more than 80% of the Key Performance Indicators (Yes/No).
+• awards_won?: Whether the employee has won any awards (Yes/No).
+• avg_training_score: Average score obtained by the employee in trainings.
+• is_promoted: Whether the employee was promoted in the last appraisal cycle (Yes/No).
