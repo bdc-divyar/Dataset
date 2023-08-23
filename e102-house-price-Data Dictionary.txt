@@ -1,0 +1,55 @@
+Data Dictionary:
+
+date:
+Description: The date the data was recorded or the property was listed/sold.
+
+price:
+Description: The price of the property.
+
+bedrooms:
+Description: The number of bedrooms in the property.
+
+bathrooms:
+Description: The number of bathrooms in the property. Decimal values represent half or quarter bathrooms.
+
+sqft_living:
+Description: The living space area of the property, measured in square feet.
+
+sqft_lot:
+Description: The total lot area of the property, measured in square feet.
+
+floors:
+Description: The number of floors in the property.
+
+waterfront:
+Description: Indicates if the property is waterfront (located directly on the water). 1 indicates waterfront, 0 otherwise.
+
+view:
+Description: A rating indicating the quality of the view from the property. Higher values indicate better views.
+
+condition:
+Description: A rating indicating the overall condition of the property. Higher values indicate better condition.
+
+sqft_above:
+Description: The square footage of the property that is above ground level.
+
+sqft_basement:
+Description: The square footage of the basement area of the property.
+
+yr_built:
+Description: The year the property was built.
+
+yr_renovated:
+Description: The year the property was last renovated. A value of 0 indicates the property hasn't been renovated since it was built.
+
+street:
+Description: The street address of the property.
+
+city:
+Description: The city in which the property is located.
+
+statezip:
+Description: The state and ZIP code of the property's location.
+
+country:
+Description: The country in which the property is located.
