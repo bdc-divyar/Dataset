@@ -1,0 +1,40 @@
+Patient_ID
+Description: A unique identifier for each patient.
+Type: Alphanumeric String
+Example: TCGA-D8-A1XD
+
+Age
+Description: Age of the patient at the time of diagnosis or data collection.
+Type: Integer
+Range: Typically 0-100, but can vary based on dataset specifics.
+Example: 36
+
+Gender
+Description: Biological sex of the patient.
+Type: Categorical (String)
+Values: MALE, FEMALE
+Example: FEMALE
+
+Protein1, Protein2, Protein3, Protein4
+Description: Quantitative measurements of specific proteins in the patient's sample. These proteins might be relevant to the disease or condition being studied.
+Type: Float
+Range: Can vary, but in this dataset, values are between -1 and 2 (approximate range based on the sample).
+Example: 0.080353 (for Protein1)
+
+Tumour_Stage
+Description: The stage of the tumor, indicating its size and/or extent of spread in the body.
+Type: Categorical (String)
+Values: I, II, III, IV (and possibly more depending on the classification system used)
+Example: III
+
+Histology
+Description: The microscopic study of the appearance of cells and tissues, in this context, it refers to the type of breast cancer.
+Type: Categorical (String)
+Values: Various types of breast cancer histologies, e.g., Infiltrating Ductal Carcinoma, Mucinous Carcinoma.
+Example: Infiltrating Ductal Carcinoma
+
+ER status
+Description: Estrogen Receptor (ER) status indicates whether the breast cancer cells have receptors for the hormone estrogen. It can influence the cancer's treatment and prognosis.
+Type: Categorical (String)
+Values: Positive, Negative (and possibly others depending on the dataset specifics)
+Example: Positive
