@@ -1,0 +1,35 @@
+status_id
+Description: The unique identifier for each status.
+
+status_type
+Description: The type of status (e.g., photo, video).
+
+status_published
+Description: The date and time when the status was published.
+
+num_reactions
+Description: The total number of reactions to the status.
+
+num_comments
+Description: The total number of comments on the status.
+
+num_shares
+Description: The total number of shares of the status.
+
+num_likes
+Description: The total number of 'likes' on the status.
+
+num_loves
+Description: The total number of 'loves' on the status.
+
+num_wows
+Description: The total number of 'wows' on the status.
+
+num_hahas
+Description: The total number of 'hahas' on the status.
+
+num_sads
+Description: The total number of 'sads' on the status.
+
+num_angrys
+Description: The total number of 'angrys' on the status.
