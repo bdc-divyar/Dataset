@@ -1,0 +1,47 @@
+Segment
+Description: The market segment to which the customer belongs.
+
+Country
+Description: The country where the product was sold.
+
+Product
+Description: The name of the product sold.
+
+Discount Band
+Description: The discount category applied to the product.
+
+Units Sold
+Description: The number of units of the product sold.
+
+Manufacturing Price
+Description: The cost of manufacturing each unit of the product.
+
+Sale Price
+Description: The price at which each unit of the product was sold.
+
+Gross Sales
+Description: The total sales amount before any discounts. Calculated as (Units Sold * Sale Price).
+
+Discounts
+Description: The total amount of discounts applied to the sale.
+
+Sales
+Description: The total sales amount after any discounts. Calculated as (Gross Sales - Discounts).
+
+COGS
+Description: The total cost of goods sold. Calculated as (Units Sold * Manufacturing Price).
+
+Profit
+Description: The total profit from the sale. Calculated as (Sales - COGS).
+
+Date
+Description: The date when the sale was made.
+
+Month Number
+Description: The month number when the sale was made.
+
+Month Name
+Description: The name of the month when the sale was made.
+
+Year
+Description: The year when the sale was made.
