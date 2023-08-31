@@ -1,0 +1,129 @@
+1. Airlines Data Dictionary
+
+IATA_CODE
+Description: The International Air Transport Association (IATA) code of the airline.
+
+AIRLINE
+Description: The name of the airline.
+
+
+
+2. Airports Data Dictionary
+
+IATA_CODE
+Description: The International Air Transport Association (IATA) code of the airport.
+
+AIRPORT
+Description: The name of the airport.
+
+CITY
+Description: The city where the airport is located.
+
+STATE
+Description: The state where the airport is located.
+
+COUNTRY
+Description: The country where the airport is located.
+
+LATITUDE
+Description: The latitude coordinate of the airport.
+
+LONGITUDE
+Description: The longitude coordinate of the airport.
+
+
+
+3. Flights Data Dictionary
+
+YEAR
+Description: The year of the flight.
+
+MONTH
+Description: The month of the flight.
+
+DAY
+Description: The day of the flight.
+
+DAY_OF_WEEK
+Description: The day of the week of the flight.
+
+AIRLINE
+Description: The IATA code of the airline.
+
+FLIGHT_NUMBER
+Description: The flight number.
+
+TAIL_NUMBER
+Description: The tail number of the aircraft.
+
+ORIGIN_AIRPORT
+Description: The IATA code of the origin airport.
+
+DESTINATION_AIRPORT
+Description: The IATA code of the destination airport.
+
+SCHEDULED_DEPARTURE
+Description: The scheduled departure time.
+
+DEPARTURE_TIME
+Description: The actual departure time.
+
+DEPARTURE_DELAY
+Description: The departure delay in minutes.
+
+TAXI_OUT
+Description: The taxi out time in minutes.
+
+WHEELS_OFF
+Description: The wheels off time.
+
+SCHEDULED_TIME
+Description: The scheduled flight time in minutes.
+
+ELAPSED_TIME
+Description: The actual elapsed time of the flight in minutes.
+
+AIR_TIME
+Description: The flight time in minutes.
+
+DISTANCE
+Description: The distance of the flight in miles.
+
+WHEELS_ON
+Description: The wheels on time.
+
+TAXI_IN
+Description: The taxi in time in minutes.
+
+SCHEDULED_ARRIVAL
+Description: The scheduled arrival time.
+
+ARRIVAL_TIME
+Description: The actual arrival time.
+
+ARRIVAL_DELAY
+Description: The arrival delay in minutes.
+
+DIVERTED
+Description: Whether the flight was diverted (1 = Yes, 0 = No).
+
+CANCELLED
+Description: Whether the flight was cancelled (1 = Yes, 0 = No).
+
+CANCELLATION_REASON
+Description: The reason for cancellation if the flight was cancelled.
+
+AIR_SYSTEM_DELAY
+Description: The delay caused by air system in minutes.
+
+SECURITY_DELAY
+Description: The delay caused by security in minutes.
+
+AIRLINE_DELAY
+Description: The delay caused by the airline in minutes.
+
+LATE_AIRCRAFT_DELAY
+Description: The delay caused by a late aircraft in minutes.
+
+WEATHER_DELAY
+Description: The delay caused by weather in minutes.
